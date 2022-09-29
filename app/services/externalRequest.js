@@ -21,5 +21,6 @@ const sendWebRequest = (options) => {
     method: options.method,
     url: options.url,
     onload: options.onload,
+    headers: { "User-Agent": "From Node" },
   });
 };
